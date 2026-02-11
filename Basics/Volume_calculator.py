@@ -45,7 +45,7 @@ class VolumeCalculator:
     
 # Example usage:
 volume_calculator = VolumeCalculator()
-shape = input("Enter the shape (cube, sphere, cylinder, cone, rectangular_prism): ").lower()
+shape = input("Enter the shape (cube, sphere, cylinder, cone, rectanguler): ").lower()
 dimensions = {}
 if shape == "cube":
     dimensions["side_length"] = float(input("Enter the side length of the cube: "))
@@ -57,7 +57,7 @@ elif shape == "cylinder":
 elif shape == "cone":
     dimensions["radius"] = float(input("Enter the radius of the cone: "))
     dimensions["height"] = float(input("Enter the height of the cone: "))
-elif shape == "rectangular_prism":
+elif shape == "rectanguler":
     dimensions["length"] = float(input("Enter the length of the rectangular prism: "))
     dimensions["width"] = float(input("Enter the width of the rectangular prism: "))
     dimensions["height"] = float(input("Enter the height of the rectangular prism: "))
