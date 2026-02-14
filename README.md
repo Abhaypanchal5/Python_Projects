@@ -23,5 +23,5 @@ My all the python projects are here which contains
 
 - email list
 
-- Username and password storing 
+- Random user and password generator
      
