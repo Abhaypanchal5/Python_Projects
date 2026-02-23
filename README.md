@@ -26,4 +26,8 @@ My all the python projects are here which contains
 - Random user and password generator
 
 - Email generator using first name and last name of user
+
+- Pandas basic Syntex 
+
+- Answer checker and giving score 
      
